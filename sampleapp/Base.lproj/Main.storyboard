@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="-196" y="103"/>
         </scene>
-        <!--Episodes-->
+        <!--Favorites-->
         <scene sceneID="WI9-oY-yIY">
             <objects>
                 <viewController id="kMA-cU-xpq" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="ar4-tt-di0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Episodes" image="film.fill" catalog="system" id="eZT-Nr-gfp"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="star.fill" catalog="system" id="eZT-Nr-gfp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8GL-m0-Xzo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,8 +76,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="film.fill" catalog="system" width="128" height="93"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
